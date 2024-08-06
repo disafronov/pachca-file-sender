@@ -23,4 +23,4 @@ COPY --from=builder /opt/venv/ /opt/venv/
 
 COPY sender.py ./
 
-ENTRYPOINT [ "python3" ]
+ENTRYPOINT [ "python3", "/opt/app/sender.py" ]
