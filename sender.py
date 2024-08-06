@@ -11,6 +11,7 @@ pachca_chat_message = environ.get("PACHCA_CHAT_MESSAGE")
 pachca = get_pachca(pachca_access_token)
 
 files = [File(pachca_file_name)]
+
 message = pachca.new_message(
     chat_id=pachca_chat_id, content=pachca_chat_message, files=files
 )
