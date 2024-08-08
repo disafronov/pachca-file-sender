@@ -10,29 +10,18 @@ def exit_with_error(variable_name):
     sys.exit(1)
 
 
-pachca_access_token = (
-    environ.get("PACHCA_ACCESS_TOKEN")
-    if environ.get("PACHCA_ACCESS_TOKEN")
-    else exit_with_error("PACHCA_ACCESS_TOKEN")
-)
+def get_env_var(variable_name):
+    result = environ.get(variable_name)
+    if result is None or result == "":
+        exit_with_error(variable_name)
+    else:
+        return result
 
-pachca_file_name = (
-    environ.get("PACHCA_FILE_NAME")
-    if environ.get("PACHCA_FILE_NAME")
-    else exit_with_error("PACHCA_FILE_NAME")
-)
 
-pachca_chat_id = (
-    int(environ.get("PACHCA_CHAT_ID"))
-    if environ.get("PACHCA_CHAT_ID")
-    else exit_with_error("PACHCA_CHAT_ID")
-)
-
-pachca_chat_message = (
-    environ.get("PACHCA_CHAT_MESSAGE")
-    if environ.get("PACHCA_CHAT_MESSAGE")
-    else exit_with_error("PACHCA_CHAT_MESSAGE")
-)
+pachca_access_token = get_env_var("PACHCA_ACCESS_TOKEN")
+pachca_file_name = get_env_var("PACHCA_FILE_NAME")
+pachca_chat_id = int(get_env_var("PACHCA_CHAT_ID"))
+pachca_chat_message = get_env_var("PACHCA_CHAT_MESSAGE")
 
 pachca = get_pachca(pachca_access_token)
 
