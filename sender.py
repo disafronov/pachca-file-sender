@@ -14,8 +14,7 @@ def get_env_var(variable_name):
     result = environ.get(variable_name)
     if result is None or result == "":
         exit_with_error(variable_name)
-    else:
-        return result
+    return result
 
 
 pachca_access_token = get_env_var("PACHCA_ACCESS_TOKEN")
