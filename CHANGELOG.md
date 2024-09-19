@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.5] - 2024-09-19
+
+### 🚜 Refactor
+
+- Update Dockerfile - move static packets before requirements.txt
+
 ## [1.0.3] - 2024-08-08
 
 ### 🚜 Refactor
