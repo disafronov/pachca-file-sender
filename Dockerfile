@@ -11,7 +11,7 @@ WORKDIR /srv/app
 FROM base AS builder
 
 RUN python3 -m venv /opt/venv && \
-  pip3 install --ignore-installed --no-cache-dir --upgrade --disable-pip-version-check pip setuptools wheel
+  pip3 install --ignore-installed --no-cache-dir --disable-pip-version-check setuptools wheel
 
 COPY requirements.txt /tmp/requirements.txt
 
