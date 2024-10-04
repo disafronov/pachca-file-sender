@@ -1,3 +1,5 @@
+# syntax=docker.io/docker/dockerfile:1.7-labs
+
 FROM python:3.12.7-slim AS base
 
 ENV PYTHONDONTWRITEBYTECODE=1
@@ -23,6 +25,6 @@ FROM base AS runtime
 
 COPY --from=builder /opt/venv/ /opt/venv/
 
-COPY sender.py ./
+COPY --exclude=requirements.txt ./ ./
 
-ENTRYPOINT [ "python3", "/srv/app/sender.py" ]
+ENTRYPOINT [ "python3", "-m", "pachca_file_sender" ]
