@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.2] - 2024-10-04
+
+### 🐛 Bug Fixes
+
+- !
+
+### 🚜 Refactor
+
+- Exception instead of print
+
 ## [1.1.1] - 2024-10-04
 
 ### 🐛 Bug Fixes
