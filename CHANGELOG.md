@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1] - 2024-10-04
+
+### 🐛 Bug Fixes
+
+- __init__.py
+
 ## [1.1.0] - 2024-10-04
 
 ### 🚀 Features
