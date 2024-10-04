@@ -7,7 +7,7 @@ from pachca_client import get_pachca, File
 def get_env_var(variable_name):
     result = environ.get(variable_name)
     if result is None or result == "":
-        raise Exception(f"The environment variable [{variable_name}] is required")
+        raise Exception(f"The environment variable [{variable_name}] is required!")
     return result
 
 
