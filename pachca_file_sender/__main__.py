@@ -1,19 +1,13 @@
 #!/usr/bin/env python3
 
-import sys
 from os import environ
 from pachca_client import get_pachca, File
-
-
-def exit_with_error(message):
-    print(message, file=sys.stderr)
-    sys.exit(1)
 
 
 def get_env_var(variable_name):
     result = environ.get(variable_name)
     if result is None or result == "":
-        exit_with_error("The environment variable " + variable_name + " is required!")
+        raise Exception(f"The environment variable [{variable_name}] is required")
     return result
 
 
