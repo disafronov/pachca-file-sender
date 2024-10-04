@@ -3,4 +3,4 @@
 
 # ...except required
 !/requirements.txt
-!/sender.py
+!/pachca_file_sender
