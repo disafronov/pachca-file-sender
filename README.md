@@ -14,3 +14,5 @@ docker run --rm \
   -e PACHCA_FILE_NAME="FullPathToYourFile" \
   ghcr.io/dmitriysafronov/pachca-file-sender:latest
 ```
+
+<!-- refactor: deps -->
