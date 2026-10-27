@@ -15,4 +15,4 @@ docker run --rm \
   ghcr.io/dmitriysafronov/pachca-file-sender:latest
 ```
 
-<!-- refactor: deps -->
+<!-- refactor: deps 2 -->
