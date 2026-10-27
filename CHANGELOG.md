@@ -1,3 +1,5 @@
+## [1.1.12](https://github.com/disafronov/pachca-file-sender/compare/v1.1.11...v1.1.12) (2026-10-27)
+
 ## [1.1.11](https://github.com/disafronov/pachca-file-sender/compare/v1.1.10...v1.1.11) (2026-10-25)
 
 ### Bug Fixes
