@@ -1,3 +1,9 @@
+## [1.1.13](https://github.com/disafronov/pachca-file-sender/compare/v1.1.12...v1.1.13) (2026-11-02)
+
+### Bug Fixes
+
+* **ci:** remove legacy release branch publishing and force-push sync ([5226957](https://github.com/disafronov/pachca-file-sender/commit/52269577eeaa4da4d054f6b424f2c43ae3e01412))
+
 ## [1.1.12](https://github.com/disafronov/pachca-file-sender/compare/v1.1.11...v1.1.12) (2026-10-27)
 
 ## [1.1.11](https://github.com/disafronov/pachca-file-sender/compare/v1.1.10...v1.1.11) (2026-10-25)
