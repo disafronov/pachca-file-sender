@@ -1,3 +1,9 @@
+## [1.1.14](https://github.com/disafronov/pachca-file-sender/compare/v1.1.13...v1.1.14) (2026-11-27)
+
+### Code Refactoring
+
+* deps ([c0d87bd](https://github.com/disafronov/pachca-file-sender/commit/c0d87bdda3ed28c894dd1f5a485c8e26d94bcf0b))
+
 ## [1.1.13](https://github.com/disafronov/pachca-file-sender/compare/v1.1.12...v1.1.13) (2026-11-02)
 
 ### Bug Fixes
